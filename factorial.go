@@ -18,5 +18,5 @@ import "fmt"
 func main() {
 	num := 5
 	result := C.factorial_c(C.int(num))
-	fmt.Printf("The actorial od %d is %d", num, result)
+	fmt.Printf("The Factorial of %d is %d", num, result)
 }
